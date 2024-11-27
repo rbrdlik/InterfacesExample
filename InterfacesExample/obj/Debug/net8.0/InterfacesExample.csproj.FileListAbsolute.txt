@@ -1,0 +1,14 @@
+C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\bin\Debug\net8.0\InterfacesExample.exe
+C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\bin\Debug\net8.0\InterfacesExample.deps.json
+C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\bin\Debug\net8.0\InterfacesExample.runtimeconfig.json
+C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\bin\Debug\net8.0\InterfacesExample.dll
+C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\bin\Debug\net8.0\InterfacesExample.pdb
+C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\obj\Debug\net8.0\InterfacesExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\obj\Debug\net8.0\InterfacesExample.AssemblyInfoInputs.cache
+C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\obj\Debug\net8.0\InterfacesExample.AssemblyInfo.cs
+C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\obj\Debug\net8.0\InterfacesExample.csproj.CoreCompileInputs.cache
+C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\obj\Debug\net8.0\InterfacesExample.dll
+C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\obj\Debug\net8.0\refint\InterfacesExample.dll
+C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\obj\Debug\net8.0\InterfacesExample.pdb
+C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\obj\Debug\net8.0\InterfacesExample.genruntimeconfig.cache
+C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\obj\Debug\net8.0\ref\InterfacesExample.dll
