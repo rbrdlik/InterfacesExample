@@ -14,8 +14,8 @@ public class CarModel : IModel, ICar
         }
     }
 
-    public DateTime DateCreate { get; }
-    public DateTime DateModified { get; private set; }
+    public DateTime DateCreate { get; set; }
+    public DateTime DateModified { get; set; }
     
     public string Brand { get; set; }
 
@@ -28,6 +28,14 @@ public class CarModel : IModel, ICar
         DateModified = DateTime.Now;
     }
 
+    public CarModel(Guid id, string name, string brand, DateTime dateCreate, DateTime dateModified)
+    {
+        Id = id;
+        _name = name;
+        DateCreate = dateCreate;
+        DateModified = dateModified;
+        Brand = brand;
+    }
 
     public string Describe()
     {

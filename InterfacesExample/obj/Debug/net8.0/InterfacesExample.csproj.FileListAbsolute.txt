@@ -12,3 +12,4 @@ C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\obj\Debug\net8
 C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\obj\Debug\net8.0\InterfacesExample.pdb
 C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\obj\Debug\net8.0\InterfacesExample.genruntimeconfig.cache
 C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\obj\Debug\net8.0\ref\InterfacesExample.dll
+C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample\obj\Debug\net8.0\InterfacesExample.sourcelink.json

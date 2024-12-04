@@ -103,3 +103,4 @@ C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample.Tests\obj\Debu
 C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample.Tests\obj\Debug\net8.0\InterfacesExample.Tests.pdb
 C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample.Tests\obj\Debug\net8.0\InterfacesExample.Tests.genruntimeconfig.cache
 C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample.Tests\obj\Debug\net8.0\ref\InterfacesExample.Tests.dll
+C:\Users\roman.brdlik\Desktop\InterfacesExample\InterfacesExample.Tests\obj\Debug\net8.0\InterfacesExample.Tests.sourcelink.json
