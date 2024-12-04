@@ -1,13 +1,13 @@
 ﻿// ReSharper disable All
 namespace InterfacesExample.Tests;
 
-public class CarRepositoryTests
+public class CarInMemoryRepositoryTests
 {
     [Fact]
     public void InsertingNewModel_ShouldIncreaseRecordCount()
     {
         //Arrange
-        IRespository<CarModel> model = new CarRepository();
+        IRespository<CarModel> model = new CarInMemoryRepository();
         CarModel carModel = new CarModel("superb", "skoda");
         int RecordCountBefore = model.RecordCount();
         
@@ -23,7 +23,7 @@ public class CarRepositoryTests
     public void InsertingNull_ShouldSustainRecordCount()
     {
         //Arrange
-        IRespository<CarModel> model = new CarRepository();
+        IRespository<CarModel> model = new CarInMemoryRepository();
         CarModel carModel = null;
         int RecordCountBefore = model.RecordCount();
 
@@ -42,7 +42,7 @@ public class CarRepositoryTests
     public void GettingAllRecords_WithTwoRecords_ShouldReturnListOfTwoRecords()
     {
         //Arrange 
-        IRespository<CarModel> model = new CarRepository();
+        IRespository<CarModel> model = new CarInMemoryRepository();
         CarModel carModel = new CarModel("superb", "skoda");
         CarModel carModel2 = new CarModel("octavia", "skoda");
 
@@ -62,7 +62,7 @@ public class CarRepositoryTests
     public void GettingInsertedRecordWithId_WithTwoRecords_ShouldReturnInsertedRecord()
     {
         //Arrange 
-        IRespository<CarModel> model = new CarRepository();
+        IRespository<CarModel> model = new CarInMemoryRepository();
         CarModel carModel = new CarModel("superb", "skoda");
         CarModel carModel2 = new CarModel("octavia", "skoda");
         
@@ -84,7 +84,7 @@ public class CarRepositoryTests
     public void GettingNotInsertedRecordWithId_WithTwoRecords_ShouldReturnNull()
     {
         //Arrange 
-        IRespository<CarModel> model = new CarRepository();
+        IRespository<CarModel> model = new CarInMemoryRepository();
         CarModel carModel = new CarModel("superb", "skoda");
         CarModel carModel2 = new CarModel("octavia", "skoda");
         
@@ -103,7 +103,7 @@ public class CarRepositoryTests
     public void UpdatingRecord_WithValidId_ShouldUpdatePropeties()
     {
         //Arange
-        IRespository<CarModel> model = new CarRepository();
+        IRespository<CarModel> model = new CarInMemoryRepository();
         CarModel carModel = new CarModel("superb", "skoda");
         model.Insert(carModel);
         Guid CarId = carModel.Id;
@@ -123,7 +123,7 @@ public class CarRepositoryTests
     public void DeletingExistingRecord_ShouldRemoveTheRecord()
     {
         //Arange
-        IRespository<CarModel> model = new CarRepository();
+        IRespository<CarModel> model = new CarInMemoryRepository();
         CarModel carModel = new CarModel("superb", "skoda");
         model.Insert(carModel);
         
